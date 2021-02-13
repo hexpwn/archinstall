@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo pacman -S ghidra gdb ltrace strace checksec gnu-netcat nmap dnsutils \
-	mitmproxy binwalk
+	mitmproxy binwalk arp-scan
 
 mkdir -p ~/lab/apps
 cd ~/lab/apps
